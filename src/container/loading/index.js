@@ -13,7 +13,7 @@ class Loading extends Component {
     };
 }
 Loading.defaultConfig = {
-    content: ('loading'),
+    content: (<span>loading...</span>),
     style: {},
     classname: '',
 };
